@@ -167,7 +167,7 @@ Optionally, instead of the classic SUID root mode of operation, udev rules can b
     ./configure --with-udev && make
     sudo make install
 
-This installs the `90-backlight.rules` into `/usr/lib/udev/rules.d/`.
+This installs the `90-light-backlight.rules` into `/usr/lib/udev/rules.d/`.
 If your udev rules are located elsewhere, use `--with-udev=PATH`.
 
 **Note:** make sure that your user is part of the `video` group, otherwise you will not get access to the devices.

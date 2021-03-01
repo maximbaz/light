@@ -4,8 +4,8 @@ doc_DATA       = README.md COPYING ChangeLog.md
 EXTRA_DIST     = README.md COPYING ChangeLog.md
 
 if UDEV
-udev_DATA      = 90-backlight.rules
-EXTRA_DIST    += $(top_srcdir)/90-backlight.rules
+udev_DATA      = 90-light-backlight.rules
+EXTRA_DIST    += $(top_srcdir)/90-light-backlight.rules
 endif
 
 # lintian --profile debian -i -I --show-overrides ../$PKG.changes
